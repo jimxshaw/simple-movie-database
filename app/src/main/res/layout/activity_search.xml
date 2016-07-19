@@ -10,6 +10,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="me.jimmyshaw.simplemoviedatabase.ActivitySearch">
 
-
+    <FrameLayout
+        android:id="@+id/fragment_search_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </RelativeLayout>
