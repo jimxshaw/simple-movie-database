@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Simple Movie Database</string>
+    
+    <string-array name="type">
+        <item>any</item>
+        <item>movie</item>
+        <item>series</item>
+        <item>episode</item>
+        <item>game</item>
+    </string-array>
 </resources>
