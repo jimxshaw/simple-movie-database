@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 
 public class DialogSearch extends DialogFragment {
 
+
+
     public DialogSearch() {
 
     }

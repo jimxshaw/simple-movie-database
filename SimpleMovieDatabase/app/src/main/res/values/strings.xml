@@ -1,12 +1,22 @@
 <resources>
     <string name="app_name">Simple MDb</string>
     <string name="font_family">sans-serif-thin</string>
-    
-    <string-array name="type">
+
+    <!-- Empty views -->
+    <string name="empty_views_button_search">Search</string>
+
+    <!-- Dialog search -->
+    <string name="dialog_search_text_view_search">Search</string>
+    <string name="dialog_search_edit_text_title_hint">Title (required)</string>
+    <string name="dialog_search_edit_text_year_hint">Year (optional)</string>
+    <string name="dialog_search_button_submit_text">Submit</string>
+    <string-array name="dialog_search_type">
         <item>any</item>
         <item>movie</item>
         <item>series</item>
         <item>episode</item>
         <item>game</item>
     </string-array>
+
+
 </resources>

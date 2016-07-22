@@ -8,21 +8,21 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <TextView
             android:id="@+id/dialog_search_text_view_search"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="36dp"
-            android:layout_marginTop="36dp"
-            android:text="Database Search"
-            android:textSize="18sp"/>
+            android:layout_marginBottom="@dimen/dialog_search_text_view_margin"
+            android:layout_marginTop="@dimen/dialog_search_text_view_margin"
+            android:text="@string/dialog_search_text_view_search"
+            android:textSize="@dimen/dialog_search_text_view_search_text_size"/>
 
         <ImageButton
             android:id="@+id/dialog_search_button_close"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="@dimen/dialog_search_image_button_close_area"
+            android:layout_height="@dimen/dialog_search_image_button_close_area"
             android:layout_alignBottom="@id/dialog_search_text_view_search"
             android:layout_alignParentRight="true"
             android:layout_alignTop="@id/dialog_search_text_view_search"
@@ -34,9 +34,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/dialog_search_text_view_search"
-            android:layout_marginBottom="36dp"
-            android:hint="Title (required)"
-            android:padding="16dp"
+            android:layout_marginBottom="@dimen/dialog_search_text_view_margin"
+            android:hint="@string/dialog_search_edit_text_title_hint"
+            android:padding="@dimen/dialog_search_edit_text_title_padding"
             android:singleLine="true"/>
 
         <EditText
@@ -44,9 +44,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/dialog_search_edit_text_title"
-            android:layout_marginBottom="36dp"
-            android:hint="Year (optional)"
-            android:padding="16dp"/>
+            android:layout_marginBottom="@dimen/dialog_search_edit_text_year_margin"
+            android:hint="@string/dialog_search_edit_text_year_hint"
+            android:inputType="number"
+            android:maxLength="4"
+            android:padding="@dimen/dialog_search_edit_text_year_padding"/>
 
         <Spinner
             android:id="@+id/dialog_search_spinner_type"
@@ -60,9 +62,9 @@
             android:id="@+id/dialog_search_button_submit_search"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="36dp"
             android:layout_below="@id/dialog_search_edit_text_year"
-            android:text="Submit"
+            android:layout_marginTop="@dimen/dialog_search_button_submit_margin"
+            android:text="@string/dialog_search_button_submit_text"
             android:textAllCaps="false"/>
 
     </RelativeLayout>

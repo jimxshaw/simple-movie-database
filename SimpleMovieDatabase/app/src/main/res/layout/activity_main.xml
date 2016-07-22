@@ -13,6 +13,6 @@
 
     <include
         android:id="@+id/empty_movies"
-        layout="@layout/empty_movies"/>
+        layout="@layout/empty_views"/>
 
 </LinearLayout>

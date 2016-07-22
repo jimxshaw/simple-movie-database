@@ -2,4 +2,21 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Empty views -->
+    <dimen name="empty_views_image_view_logo_area">192dp</dimen>
+    <dimen name="empty_views_image_view_logo_margin">84dp</dimen>
+    <dimen name="empty_views_button_search_margin">24dp</dimen>
+    <dimen name="empty_views_button_search_padding">60dp</dimen>
+    <dimen name="empty_views_button_search_text_size">28sp</dimen>
+
+    <!-- Dialog search -->
+    <dimen name="dialog_search_text_view_margin">36dp</dimen>
+    <dimen name="dialog_search_text_view_search_text_size">18sp</dimen>
+    <dimen name="dialog_search_image_button_close_area">25dp</dimen>
+    <dimen name="dialog_search_edit_text_title_padding">16dp</dimen>
+    <dimen name="dialog_search_edit_text_year_margin">36dp</dimen>
+    <dimen name="dialog_search_edit_text_year_padding">16dp</dimen>
+    <dimen name="dialog_search_button_submit_margin">36dp</dimen>
+
 </resources>
