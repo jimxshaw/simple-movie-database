@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Simple Movie Database</string>
+    <string name="app_name">Simple MDb</string>
     
     <string-array name="type">
         <item>any</item>
